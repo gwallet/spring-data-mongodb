@@ -596,6 +596,7 @@ public final class NearQuery {
 
 		if (limit != null) {
 			document.put("num", limit);
+			document.put("limit", limit);
 		}
 
 		if (usesGeoJson()) {
